@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	width: 1220px;
+	height: 10000px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+
+	.img-logo {
+		background-image: url(./assets/logo.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 41px;
+		height: 41px;
+	}
+
+	nav {
+		display: flex;
+		gap: 35px;
+		align-items: center;
+
+		p {
+			color: #B8BECD;
+			font: 400 16px Inter;
+
+			&:hover {
+				color: #202336;
+				font: 500 16px Inter;
+			}
+		}
+
+		.left-btn {
+			width: 132px;
+			background: #FFF;
+			border-radius: 8px;
+			border: 1px solid #FB8F1D;
+			text-align: center;
+			padding: 9px 0;
+			color: #FB8F1D;
+			font: 500 15px Inter;
+		}
+
+		.right-btn {
+			width: 132px;
+			border-radius: 8px;
+			background: #FB8F1D;
+			color: #FFF;
+			font: 500 15px Inter;
+			padding: 9px 0;
+			text-align: center;
+		}
+
+	}
+
+}
+
+.preview {
+	display: flex;
+	margin-top: 114px;
+	justify-content: space-between;
+	align-items: center;
+
+	.info {
+		width: 500px;
+	}
+
+	h1 {
+		color: #202336;
+		font: 700 64px Playfair Display;
+	}
+
+	p {
+		color: #202336;
+		font: 600 22px Inter;
+		margin-top: 74px;
+		margin-bottom: 71px;
+	}
+
+	.inputs {
+		display: flex;
+		flex-wrap: wrap;
+		color: #4A4C53;
+		font: 400 15px Inter;
+		gap: 30px;
+		margin-bottom: 68px;
+
+		input {
+			width: 210px;
+			padding: 15px;
+			border-radius: 6px;
+			border: 0.8px solid #AFB0B9;
+		}
+
+	}
+
+	.button {
+		border-radius: 8px;
+		background: #FB8F1D;
+		text-align: center;
+		padding: 10px 58px;
+		width: 180px;
+		color: #FFF;
+		font: 700 17px Inter;
+	}
+
+	.img {
+		background-image: url(./assets/thousand-01\ 1.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 506px;
+		height: 483px;
+
+	}
+}
+
+.underpreview {
+	display: flex;
+	justify-content: space-between;
+
+
+	.about {
+		gap: 27px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.left-image {
+		background-image: url(./assets/Thousand-02\ 1.png);
+		background-repeat: no-repeat;
+		width: 646px;
+		height: 524px;
+		margin-top: 109px;
+		background-size: contain;
+	}
+
+	.text {
+		display: flex;
+		align-items: center;
+
+		h1 {
+			color: #000;
+			font: 700 36px Playfair Display;
+			width: 481px;
+		}
+
+		p {
+			color: #7D7987;
+			font: 300 17px Inter;
+			width: 450px;
+			margin-top: 20px;
+		}
+
+		.btn {
+			color: #FFF;
+			font: 600 16px Inter;
+			width: 164px;
+			border-radius: 8px;
+			background: #FB8F1D;
+			padding: 15px 37px;
+			margin-top: 39px;
+
+		}
+	}
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 192px;
+	background: #F9F9FB;
+	padding: 61px 233px 123px;
+	width: 1640px;
+
+	.left_side {
+		.logo {
+			background-image: url(./assets/logo.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 44px;
+			height: 38px;
+			margin-bottom: 22px;
+		}
+
+		p {
+			color: #848484;
+			font: 300 18px Inter;
+			width: 391px;
+
+			&:not(:last-child) {
+				margin-bottom: 47px;
+			}
+		}
+	}
+
+	.destin {
+		h3 {
+			color: #000;
+			font: 700 19px Inter;
+		}
+
+		p {
+			color: #848484;
+			font: 300 18px Inter;
+			margin-top: 10px;
+		}
+
+		.shop {
+			h3 {
+				color: #000;
+				font: 700 19px Inter;
+			}
+
+			p {
+				color: #848484;
+				font: 300 18px Inter;
+				margin-top: 10px;
+			}
+		}
+
+		.interests {
+			h3 {
+				color: #000;
+				font: 700 19px Inter;
+			}
+
+			p {
+				color: #848484;
+				font: 300 18px Inter;
+				margin-top: 10px;
+
+			}
+
+		}
+
+
+	}
+}
